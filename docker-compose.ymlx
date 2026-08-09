@@ -22,7 +22,6 @@ services:
       POSTGRES_DB: devops_db
       POSTGRES_USER: postgres
       POSTGRES_PASSWORD: postgres123
-
     depends_on:
       - db
 

@@ -35,6 +35,8 @@ for i in range(max_retries):
         conn.close()
         break
     except Exception as e:
-        print(f"⌛ DB not ready yet, retrying in 3 seconds...")
+        print(f"❌ Error: {e}")
+        print(f"⌛ Retrying in 3 seconds...")
         time.sleep(3)
+
 
