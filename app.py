@@ -1,1 +1,1 @@
-Hello from 100% native linux!
+print("Hello from 100% native linux!")
